@@ -18,6 +18,7 @@ main {
 
 .cestovatel{
     max-width: 100%;
+    width: 350px;
     height: auto;
 }
 
@@ -25,6 +26,7 @@ h1{
     font-size: 28px;
     font-weight:bold;
     margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .cara{
@@ -92,4 +94,49 @@ h2 {
     color: #8B8B8B;
     margin-bottom: 0;
     margin-left: 25px;
+    flex-basis: 100%;
+    text-align: left;
+}
+
+@media screen and (min-width:640px) {
+
+.main{
+   max-width: 730px;
+   margin-left: 20px;
+   margin-right: 20px; 
+}
+
+.cestovatel{
+    width: 400px;
+}
+
+h1{
+    margin-top: 30px;
+}   
+
+p{
+    width: 550px;
+    margin-left: 0;
+    
+}
+
+/*.tlacitko1,
+.tlacitko2{
+    display: inline-block;
+}*/
+
+.tlacitko2{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.buttony{
+    display: flex;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+h2{
+    margin-top: 80px;
+}
 }
